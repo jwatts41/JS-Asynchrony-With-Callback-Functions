@@ -68,7 +68,7 @@ function newNonPlayableCharacter(x, y) {
         }, time)
     }
 
-    function stop(time, callback) {
+    function stop() {
         direction = null
         element.src = `./assets/red-character/static.gif`
     }
